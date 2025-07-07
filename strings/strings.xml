@@ -1,0 +1,55 @@
+<strings>
+    <string id="AppName">Aviation Time Grayscale</string>
+    
+    <string id="White">White</string>
+    <string id="LTGray">Light Gray</string>
+    <string id="DKGray">Dark Gray</string>
+    <string id="Black">Black</string>
+    <string id="Red">Red</string>
+    <string id="DKRed">Dark Red</string>
+    <string id="Orange">Orange</string>
+    <string id="Yellow">Yellow</string>
+    <string id="Green">Green</string>
+    <string id="DKGreen">Dark Green</string>
+    <string id="Blue">Blue</string>
+    <string id="DKBlue">Dark Blue</string>
+    <string id="Purple">Purple</string>
+    <string id="Pink">Pink</string>
+
+    <string id="ClockColorTitle">Time color</string>
+    <string id="ClockColorPrompt">Select clock color</string>
+
+    <string id="TimeStepTitle">Steps or Zulu time</string>
+    <string id="TimeStepPrompt">Steps or Zulu Time</string>
+
+    <string id="TouchOffTitle">Turn press/hold off</string>
+    <string id="TouchOffPrompt">Turn press/hold off</string>
+
+    <string id="ZTime">Zulu Time</string>
+    <string id="ZSteps">Steps</string>
+
+    <string id="DispBattTitle">Display battery or Temp</string>
+    <string id="DispBattPrompt">Show Battery</string>
+    <string id="batString">batString</string>
+    <string id="YesBat">Show Battery</string>
+    <string id="NoBat">Hide Battery</string>
+    <string id="YesWx">Show Temperature Instead</string>
+
+    <string id="ShadOptTitle">Clock shadow options</string>
+    <string id="ShadOptPrompt">Clock Shadow Options</string>
+    <string id="NoShad">No Shadow</string>
+    <string id="WhiteShad">White Shaddow</string>
+    <string id="BlackShad">Black Shadow</string>
+    <string id="GrayShad">Gray Shadow</string>
+    <string id="ShadOpt">Choose Shadow</string>
+
+    <string id="SubColorTitle">Sub items font color</string>
+    <string id="SubColorPrompt">Sub items font color</string>
+
+    <string id="ShowNotesTitle">Display Notifications</string>
+    <string id="ShowNotesPrompt">Display Notifications</string>
+    <string id="ShowNotes">Display Notifications</string>
+
+    <string id="SecOptTitle">Dispaly Seconds Arc</string>
+    <string id="SecOptPrompt">Dispaly Seconds Arc</string>
+</strings>
