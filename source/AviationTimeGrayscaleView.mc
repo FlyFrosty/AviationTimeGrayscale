@@ -170,14 +170,35 @@ class AviationTimeGrayscaleView extends WatchUi.WatchFace {
             normalTime();
             calcZuluTime();
 
-            dc.setColor(clockColorSet, Graphics.COLOR_BLACK);
+System.println(clockColorSet);
+System.println(subColorSet);
 
             if (BIP) {
-                dc.drawText((wWidth / 2), (wHeight * 0.15), Graphics.FONT_LARGE, calcTime+"L", Graphics.TEXT_JUSTIFY_CENTER); 
+                if (clockColorSet !=0) {
+                    dc.setColor(clockColorSet, Graphics.COLOR_BLACK);
+                } else {
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                }
+                dc.drawText((wWidth / 2), (wHeight * 0.15), Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER);
+                if (subColorSet != 0) { 
+                    dc.setColor(subColorSet, Graphics.COLOR_BLACK);
+                } else {
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                }
                 dc.drawText((wWidth / 2), (wHeight * 0.60), Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER);
                 BIP = false; 
             } else {
-                dc.drawText((wWidth / 2), (wHeight * 0.30), Graphics.FONT_LARGE, calcTime+"L", Graphics.TEXT_JUSTIFY_CENTER); 
+                if (clockColorSet !=0) {
+                    dc.setColor(clockColorSet, Graphics.COLOR_BLACK);
+                } else {
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                }
+                dc.drawText((wWidth / 2), (wHeight * 0.30), Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER);
+                if (subColorSet != 0) { 
+                    dc.setColor(subColorSet, Graphics.COLOR_BLACK);
+                } else {
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                }
                 dc.drawText((wWidth / 2), (wHeight * 0.70), Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
                 BIP = true;
             }
